@@ -10,7 +10,6 @@ W = tf.placeholder(tf.float32)
 hypothesis = X * W
 
 cost = tf.reduce_mean(tf.square(hypothesis - Y))
-
 sess = tf.Session()
 
 W_history = []
